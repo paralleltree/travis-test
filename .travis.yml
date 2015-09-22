@@ -4,8 +4,5 @@ env:
 
 script:
   - echo VAL1 = $VAL1
-  - [ $VAL1 = a ]
   - echo VAL2 = $VAL2
-  - [ $VAL2 = b ]
   - echo VAL3 = $VAL3
-  - [ $VAL3 = c ]
