@@ -1,0 +1,11 @@
+env:
+  global:
+    secure: "nFvrhd5AxyAaeVXSP70CW9Dacjb8QYrNzVvGDFEDzpW7leCtV2k2yyY8L5hxNzAvMebYfd9R6/edOQe6ufvVKxQEvaPTN3BYiXTXKCcHS84ijQqV2TK9XSz6DEYvnpwVD2qf09xx6DCezqABGj9dzGcrDlpamsHZSYvbj/81dr7Fiq+oIzphRPM1+zMs7qKrHE6Bfa/n2oiS/fqDO3U8FyqgARQyta/EPKCfsXT/WvaM891MC0i0I3+JxqzsC1ds+Dqq5Tkl/Tuubz15y9PA+Ke7oZ+a3S6Bb1+K/Nnw4ZDffiYBeHvtZuJaBd771JZt5nn0kda0ViXRqS2oAuKtkrISMH2pjnhO9qgvzBCx+jgUZQzSrp1mgsVA0tQfQFP2JXadvWorYXvbXyh0vUlMakXwsspyKocIDu9qfomVPV7G66Ytxq0jFlayJNfpw4d8o/20VDA="
+
+script:
+  - echo VAL1 = $VAL1
+  - "[ $VAL1 = a ]"
+  - echo VAL2 = $VAL2
+  - "[ $VAL2 = b ]"
+  - echo VAL3 = $VAL3
+  - "[ $VAL3 = c ]"
